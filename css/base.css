@@ -1,0 +1,207 @@
+﻿#contents_container {
+	width: 90%; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+#submenu .page_title {
+                    padding: 16px; 
+	font-size: 18pt;
+                    background: #fff; 
+                    -webkit-border-radius: 20px; 
+                    -webkit-box-shadow: 0 0 10px #8fbc8f inset, 2px 2px 0 #8fbc8f; 
+                    -moz-box-shadow: 0 0 10px #8fbc8f inset, 2px 2px 0 #8fbc8f; 
+                    box-shadow: 0 0 10px #8fbc8f inset, 2px 2px 0 #8fbc8f;
+}
+
+#submenu .submenu_box {
+	font-size: 15pt;
+	line-height: 1.4;
+	background-color: #ffffff;
+                    -webkit-border-radius: 20px; 
+	border: 2px solid #8fbc8f;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+}
+
+#submenu .submenu_box a:link {
+	text-decoration: none;
+}
+
+#submenu .submenu_box a:hover {
+	text-decoration: underline;
+	color: #B31500;
+}
+
+#submenu .submenu_box .menu_on a {
+	text-decoration: underline;
+	color: #B31500;
+}
+
+#submenu .submenu_box .menu01 a {
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8fbc8f;
+	display: block;
+}
+
+#submenu .submenu_box .menu02 {
+	padding-top: 10px;
+}
+
+#submenu .submenu_box .menu03 a {
+	padding-top: 5px;
+	margin-left: 1em;
+	padding-bottom: 5px;
+	display: block;
+}
+
+#submenu .submenu_box .menu04 a {
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #8fbc8f;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #8fbc8f;
+	display: block;
+}
+
+#submenu .submenu_box .menu05 a {
+	padding-top: 10px;
+	padding-bottom: 8px;
+	display: block;
+}
+
+#submenu .submenu_box .menu06 a {
+	padding-top: 5px;
+	margin-left: 1em;
+	padding-bottom: 8px;
+	display: block;
+}
+
+
+.contents_note {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-top: 20px;
+}
+
+.contents_box {
+}
+
+.contents_box p {
+	font-size: 16px;
+	line-height: 2.0;
+}
+
+
+h1 {
+	font-size: 34px;
+	line-height: 1.4;
+                    -webkit-border-radius: 20px; 
+	font-weight: normal;
+	color: white;
+	letter-spacing: 0.1em;
+	background-color: #8fbc8f;
+                    font-family: "Century";
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+
+
+h2 {
+	font-size: 26px;
+	font-family: "Century";
+	line-height: 1.6;
+	letter-spacing: 0.05em;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 22px;
+	font-family: "Century";
+	line-height: 1.6;
+	letter-spacing: 0.05em;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+
+.link_list ul {
+	margin-top: 20px;
+}
+
+.link_list li {
+	font-size: 16px;
+	line-height: 1.6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.link_list li a {
+	background-image: url(../common_img/arrow_red.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	line-height: 1.4;
+	background-position: left 5px;
+}
+
+.link_list .sub_list {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	margin-left: 1em;
+}
+
+.link_list2 ul {
+	margin-top: 20px;
+}
+
+.link_list2 li {
+	font-size: 16px;
+	line-height: 1.6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url(../common_img/arrow_red.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	line-height: 1.4;
+	background-position: left 15px;
+}
+
+.school_year_pastlist {
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+.school_year_pastlist a {
+	text-decoration: none;
+	background-image: url(../common_img/arrow_gray.gif);
+	background-repeat: no-repeat;
+	padding-left: 13px;
+	line-height: 1.4;
+	background-position: left 3px;
+	font-weight: bold;
+}
+
+.renewal_day {
+	font-size: 12px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.administrator_info {
+	font-size: 12px;
+	text-align: right;
+	margin-top: 10px;
+}

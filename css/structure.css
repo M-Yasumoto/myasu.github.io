@@ -1,0 +1,69 @@
+/*clearfix*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+
+html>/**/body .clearfix { display /*\**/: block\9 }
+
+/* Hides from IE-mac ?*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+
+}
+/* End hide from IE-Mac */
+html {
+   overflow-y:scroll;
+}
+/*----------------------------*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.position_relative {
+	position: relative;
+}
+.right_txt {
+	text-align: right;
+}
+/*----------------------------*/
+a:link {
+	color: #333;
+	text-decoration: underline;
+}
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+a:active {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+/*----------------------------*/
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.pt20 {
+	padding-top: 20px;
+}

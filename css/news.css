@@ -1,0 +1,33 @@
+dl {
+	font-size: 14px;
+	line-height: 1.6;
+	clear: both;
+	width: 690px;
+}
+
+dt {
+	padding-top: 15px;
+	width: 6.5em;
+	float: left;
+	clear: both
+}
+
+dd {
+	padding-top: 15px;
+	padding-left: 6.5em
+}
+
+ul {
+	font-size: 14px;
+	line-height: 1.6;
+	width: 690px;
+}
+
+li {
+	background-image: url(../common_img/arrow_red.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	line-height: 1.4;
+	background-position: left 3px;
+	margin-top: 15px;
+}

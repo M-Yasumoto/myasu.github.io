@@ -1,0 +1,263 @@
+﻿#header {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15pt;
+}
+
+#header .h1_title {
+	float: left;
+	width: 470px;
+	margin-top: 20px;
+}
+
+#header .link_box {
+	float: right;
+	width: 490px;
+	margin-top: 15px;
+	position: relative;
+	height: 56px;
+}
+
+#header .link_box #outside_link {
+	font-size: 13px;
+	line-height: 1.2;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#header .link_box #outside_link li {
+	float: left;
+}
+
+#header .link_box #outside_link li a {
+	text-decoration: none;
+	background-image: url(../common_img/arrow_gray.gif);
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	line-height: 1.4;
+	background-position: left 3px;
+	margin-left: 15px;
+}
+
+#header .link_box #outside_link li a:hover {
+	text-decoration: underline;
+}
+
+#header .link_box #inside_link {
+	font-size: 12px;
+	line-height: 1.2;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#header .link_box #inside_link li {
+	float: left;
+}
+
+#header .link_box #inside_link li a {
+	color: #FFF;
+	text-align: center;
+	display: block;
+	width: 84px;
+	background-color: #8fbc8f;
+	margin-right: 5px;
+	text-decoration: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#header .link_box #inside_link li a:hover {
+	background-color: #8fbc8f;
+}
+
+#global_navi {
+	background-color: #8fbc8f;
+                    -webkit-border-radius: 20px; 
+	width: 90%;
+	margin-top: 15px;
+}
+
+#global_navi .global_navi_contents {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#global_navi .global_navi_contents ul {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15pt;
+	line-height: 1.4;
+}
+
+#global_navi .global_navi_contents li {
+	display: inline-block;
+}
+
+#global_navi .global_navi_contents li a {
+	padding-top: 18px;
+	padding-right: 23px;
+	padding-bottom: 14px;
+	padding-left: 23px;
+	font-size: 15pt;
+                    letter-spacing: 2pt;
+	line-height: 1.4;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#global_navi .global_navi_contents li a:hover {
+	text-decoration: underline;
+}
+
+#top_image {
+	background-color: #8fbc8f;
+	width: 100%;
+	text-align: center;
+	height: 230px;
+}
+
+#contents_container .left_box {
+	width: 18%;
+	float: left;
+}
+
+#contents_container .left_box .banner_list li {
+	line-height: 0;
+}
+
+#contents_container .left_box .banner_list .researcher_recruit {
+	font-size: 15px;
+	margin-top: 20px;
+	background-image: url(../common_img/arrow_red.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	line-height: 1.4;
+	background-position: left 3px;
+	font-weight: bold;
+}
+
+#contents_container .right_box {
+	width: 80%;
+	float: right;
+}
+
+#footer {
+	background-color: #8fbc8f;
+	color: white;
+                   -webkit-border-radius: 20px; 
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footer_contents {
+	width: 90%;
+	font-size: 15pt;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footer_contents .info_title {
+	font-size: 16pt;
+	line-height: 1.4;
+}
+
+#footer_contents .info_txt {
+	font-size: 12pt;
+	line-height: 1.6;
+	margin-top: 5px;
+}
+
+#footer_contents .footer_contents_left {
+	float: left;	
+}
+
+#footer_contents .footer_contents_right {
+	float: right;
+	height: 60px;
+	width: 60px;
+}
+
+#footer_contents .cr {
+	font-size: 13px;
+	line-height: 1.4;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #8fbc8f;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+#gsc{
+	width: 215px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	bottom: -6px;
+}
+#gsc .gsc-control-cse, 
+#gsc .gsc-control-cse-ja,
+#gsc .gsib_a{
+    margin:0 !important;
+    padding:0 !important;
+}
+/* テキスト入力フォームとボタンの位置 */
+#gsc table.gsc-search-box td,
+#gsc table.gsc-search-box input {
+	vertical-align: middle !important;
+}
+/* テキスト入力フォーム */
+#gsc input[type="text"]{
+    border: 1px solid #dddddd !important;
+    height:25px !important;
+}
+#gsc input[type="text"]:focus {
+    border: 1px solid #008ee1 !important;
+    outline: 0;  /*safariの自動フォーカスを切る */
+}
+/* テキスト入力フォームの影を消す */
+#gsc #gsc-iw-id1{
+    border:none !important;
+}
+/* テキスト入力フォームの背景画像位置調整 */
+#gsc #gs_tti0 input{
+    background-position:5px 5px !important;
+}
+/* ボタンの色 */
+#gsc input.gsc-search-button {
+background: #333 !important;
+background: -ms-linear-gradient(top,  #333 0%,#333 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#333',GradientType=0 ); /* IE6-9 */
+border: 1px solid #333 !important;
+}
+/* ボタンの位置調整と角丸消し */
+#gsc .gsc-search-button{
+    margin:0 0 0 -16px !important;
+    border-radius:0;
+}
+/* 入力時に出る「×」ボタンの位置調整 */
+#gsc .gsib_b a{
+    position:absolute;
+    top:3px;
+    left:185px;
+}
+/* 入力時に出る×ボタン -- Firefox位置調整 -- */
+#gsc .gsib_b span{
+        box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        padding:2px 0 0 0;
+}
+

@@ -1,0 +1,114 @@
+.profile_table {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.profile_table td {
+	vertical-align: top;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.profile_td_item {
+	width: 8em;
+	text-align: left;
+	font-weight: bold;
+	padding-right: 0.5em;
+}
+
+.activities_box{
+	margin-bottom: 30px;
+	border: 2px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.symposium_table {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.symposium td {
+	vertical-align: top;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.symposium_td_item {
+	width: 3em;
+	text-align: left;
+	font-weight: bold;
+	padding-right: 0.5em;
+}
+
+.algebra_seminar_info_table {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-top: 20px;
+}
+
+.algebra_seminar_info_table td {
+	vertical-align: top;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.algebra_seminar_info_td_item {
+	width: 4em;
+	text-align: left;
+	padding-right: 0.5em;
+}
+
+.combination_title {
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background-color: #F7E7E5;
+	border: 2px solid #B51100;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.orts_info_table {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-top: 20px;
+}
+
+.orts_info_table td {
+	vertical-align: top;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.orts_info_td_item {
+	width: 9em;
+	text-align: right;
+	padding-right: 1em;
+}
+
+.dg_seminar_info_table {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-top: 20px;
+}
+
+.dg_seminar_info_table td {
+	vertical-align: top;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.dg_seminar_info_td_item {
+	width: 4em;
+	text-align: left;
+	padding-right: 0.5em;
+}
